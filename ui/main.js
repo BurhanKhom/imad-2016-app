@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 var img= document.getElementById("myImage");
 var marginLeft=0;
-moveRight = function(){
+function moveRight(){
     marginLeft = marginLeft+5;
     img.style.marginLeft = marginLeft+"px";
 };
